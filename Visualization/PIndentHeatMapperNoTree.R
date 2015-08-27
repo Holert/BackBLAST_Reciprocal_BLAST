@@ -10,7 +10,7 @@ library(ape)
 library(gplots)
 
 # Sets the working directory. 
-setwd("/Users/lee/Dropbox/RandD/Repositories/BackBLAST_Reciprocal_BLAST/TestData/Old_Run/Filtered")
+setwd("/Users/Jojo/Dropbox/Jojo/Postdoc/GenomicsSteroids/Rhodococcus_fascians/brBLASTanalysis/results_filtered_copy")
 
 # Gets a list files from the working directory.
 fileList = list.files(path = getwd(), all.files = FALSE, pattern = "\\.csv$") 
